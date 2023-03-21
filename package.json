@@ -1,0 +1,13 @@
+{
+  "name": "use-combine",
+  "version": "0.0.1",
+  "description": "like redux combineReducers but on hooks with typescript type inference",
+  "main": "index.ts",
+  "repository": "https://github.com/alexpozdnyakof/use-combine",
+  "author": "alexpozdnyakof",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
