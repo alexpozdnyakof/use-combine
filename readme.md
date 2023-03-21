@@ -9,19 +9,19 @@ Use it with React Context.
 ## Setup
 with yarn
 ```bash
-yarn add usecombine
+yarn add use-combine
 ```
 
 with npm
 ```
-npm install usecombine
+npm install use-combine
 ```
 
 
 ## Usage
 
 ```tsx
-import useCombine from 'usecombine';
+import useCombine from 'use-combine';
 import { useReducer } from 'react';
 
 
@@ -85,7 +85,7 @@ type TodosState = {
 }
 
 //context.tsx
-import useCombine from 'usecombine';
+import useCombine from 'use-combine';
 import { userReducer, userInitialState,  UserState, UserAction } from './slices/user-slice'
 import { todosReducer, todosInitialState, TodosState, TodosAction } from './slices/todos-slice'
 
