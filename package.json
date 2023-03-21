@@ -7,7 +7,15 @@
   "author": "alexpozdnyakof",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "test": "vitest"
+  },
   "devDependencies": {
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2",
+    "vitest": "^0.29.7"
+  },
+  "optionalDependencies": {
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0"
   }
 }
